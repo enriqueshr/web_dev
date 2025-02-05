@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #a9180a;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    color: #a5190c;
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse }
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #bc1c0e;
+    color: white;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 10px 0 5px;
+}
+
+input[type="date"], select, textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #b01e11;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #a81508;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #aa1c0f;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
