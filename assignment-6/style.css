@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+#colorBox {
+    width: 300px;
+    height: 300px;
+    background-color: #ffffff; /* Default color */
+    border: 2px solid #000;
+    transition: background-color 0.5s ease; /* Smooth transition */
+}
+
+input[type="color"] {
+    margin: 20px 0;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
